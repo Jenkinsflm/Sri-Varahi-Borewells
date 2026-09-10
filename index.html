@@ -1,0 +1,2199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sri Varahi Borewells | Hyderabad Trusted Borewell Experts</title>
+  
+  <style>
+    /* ================= RESET & CORE TOKENS ================= */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    ul {
+      list-style: none;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .badge-chip {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #0f766e;
+      background-color: #ccfbf1;
+      border: 1px solid #99f6e4;
+      padding: 4px 14px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: 34px;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      color: #0f172a;
+    }
+    .section-desc {
+      font-size: 15px;
+      color: #64748b;
+      margin-top: 8px;
+    }
+
+    /* ================= FIXED NAVBAR ================= */
+    .site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    }
+    .nav-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 74px;
+    }
+    .nav-logo-img {
+      height: 48px;
+      width: auto;
+    }
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #334155;
+    }
+    .nav-menu a:hover {
+      color: #0d9488;
+    }
+    .nav-cta-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .btn-nav-call {
+      font-size: 13px;
+      font-weight: 800;
+      background: #f1f5f9;
+      color: #0f172a;
+      padding: 9px 16px;
+      border-radius: 10px;
+      transition: background 0.2s;
+    }
+    .btn-nav-call:hover {
+      background: #e2e8f0;
+    }
+    .btn-nav-calc {
+      font-size: 13px;
+      font-weight: 800;
+      background: #0f766e;
+      color: #ffffff;
+      padding: 9px 18px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(15, 118, 110, 0.25);
+      transition: background 0.2s;
+    }
+    .btn-nav-calc:hover {
+      background: #0d9488;
+    }
+    @media (max-width: 900px) {
+      .nav-menu, .btn-nav-call {
+        display: none;
+      }
+    }
+
+    /* ================= HERO WITH BACKGROUND TRUCK ================= */
+    .hero-section {
+      position: relative;
+      padding-top: 130px;
+      padding-bottom: 90px;
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      background-image: linear-gradient(135deg, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.82) 55%, rgba(6, 40, 23, 0.88) 100%), url('borewellrig.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #ffffff;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.25fr 0.95fr;
+      gap: 40px;
+      align-items: center;
+      width: 100%;
+    }
+    @media (max-width: 992px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .hero-pretitle {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(13, 148, 136, 0.25);
+      border: 1px solid rgba(45, 212, 191, 0.4);
+      color: #5eead4;
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 5px 14px;
+      border-radius: 9999px;
+      margin-bottom: 18px;
+      letter-spacing: 0.06em;
+    }
+    .hero-title {
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+    }
+    .hero-title span {
+      color: #2dd4bf;
+    }
+    .hero-desc {
+      font-size: 16px;
+      color: #cbd5e1;
+      margin-top: 18px;
+      max-width: 580px;
+      line-height: 1.6;
+    }
+    .hero-btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 26px;
+    }
+    .btn-hero-calc {
+      background: #f59e0b;
+      color: #0f172a;
+      font-size: 14px;
+      font-weight: 900;
+      padding: 13px 24px;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px -5px rgba(245, 158, 11, 0.4);
+      transition: transform 0.2s, background 0.2s;
+    }
+    .btn-hero-calc:hover {
+      background: #d97706;
+      transform: translateY(-2px);
+    }
+    .btn-hero-wa {
+      background: #ffffff;
+      color: #0f172a;
+      font-size: 14px;
+      font-weight: 800;
+      padding: 13px 22px;
+      border-radius: 12px;
+      transition: transform 0.2s;
+    }
+    .btn-hero-wa:hover {
+      transform: translateY(-2px);
+    }
+    .hero-specs-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 36px;
+      padding-top: 26px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .spec-metric {
+      font-size: 22px;
+      font-weight: 900;
+      font-family: monospace;
+      color: #ffffff;
+    }
+    .spec-label {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: 2px;
+    }
+
+    /* Right Card: Requirement Specifier */
+    .hero-card {
+      background: rgba(15, 23, 42, 0.82);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 22px;
+      padding: 28px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+    .hc-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+    }
+    .hc-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: #ffffff;
+    }
+    .hc-step {
+      font-size: 11px;
+      font-family: monospace;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 3px 8px;
+      border-radius: 6px;
+      color: #cbd5e1;
+    }
+    .tab-pills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      background: rgba(0, 0, 0, 0.35);
+      padding: 5px;
+      border-radius: 12px;
+      margin-bottom: 18px;
+    }
+    .tab-pill-btn {
+      background: transparent;
+      border: none;
+      color: #cbd5e1;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 9px 6px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-pill-btn.active {
+      background: #0d9488;
+      color: #ffffff;
+      box-shadow: 0 4px 10px rgba(13, 148, 136, 0.35);
+    }
+    .spec-details-box {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .spec-item {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12.5px;
+    }
+    .spec-item span:first-child {
+      color: #94a3b8;
+    }
+    .spec-item span:last-child {
+      font-weight: 800;
+      font-family: monospace;
+      color: #2dd4bf;
+    }
+    .hc-cta {
+      display: block;
+      width: 100%;
+      background: #ffffff;
+      color: #0f172a;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 800;
+      padding: 12px;
+      border-radius: 10px;
+      margin-top: 18px;
+      transition: background 0.2s;
+    }
+    .hc-cta:hover {
+      background: #f1f5f9;
+    }
+
+    /* ================= SECTION: WHY CHOOSE ================= */
+    .features-section {
+      padding: 80px 0;
+      background: #ffffff;
+    }
+    .center-header {
+      text-align: center;
+      max-width: 650px;
+      margin: 0 auto 45px auto;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .feature-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 20px;
+      padding: 28px;
+      transition: all 0.25s ease;
+    }
+    .feature-card:hover {
+      background: #ffffff;
+      border-color: #0d9488;
+      box-shadow: 0 16px 30px -10px rgba(13, 148, 136, 0.12);
+      transform: translateY(-3px);
+    }
+    .fc-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    .fc-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      background: #ccfbf1;
+      color: #0f766e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+    .fc-chip {
+      font-size: 11px;
+      font-family: monospace;
+      font-weight: 800;
+      color: #0f766e;
+      background: #f0fdfa;
+      border: 1px solid #99f6e4;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    .fc-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 6px;
+    }
+    .fc-desc {
+      font-size: 13.5px;
+      color: #64748b;
+      line-height: 1.6;
+    }
+
+    /* ================= SECTION: SERVICES ================= */
+    .services-section {
+      padding: 80px 0;
+      background: #f1f5f9;
+      border-top: 1px solid #e2e8f0;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .service-card {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 20px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+    }
+    .service-card:hover {
+      border-color: #0d9488;
+      box-shadow: 0 16px 30px -10px rgba(13, 148, 136, 0.12);
+      transform: translateY(-3px);
+    }
+    .sc-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: #f0fdfa;
+      border: 1px solid #ccfbf1;
+      color: #0d9488;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+    .sc-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+    .sc-desc {
+      font-size: 13.5px;
+      color: #64748b;
+      line-height: 1.6;
+    }
+    .sc-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid #f1f5f9;
+    }
+    .sc-tags span {
+      font-size: 11px;
+      font-family: monospace;
+      font-weight: 700;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      color: #475569;
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+    .sc-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 800;
+      color: #0d9488;
+      margin-top: 20px;
+      transition: gap 0.2s;
+    }
+    .service-card:hover .sc-link {
+      gap: 10px;
+    }
+
+    /* ================= SECTION: GALLERY ================= */
+    .gallery-section {
+      padding: 80px 0;
+      background: #ffffff;
+      border-top: 1px solid #e2e8f0;
+    }
+    .filter-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 36px;
+    }
+    .filter-btn {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 9px 20px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #475569;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: #0f172a;
+      color: #ffffff;
+      border-color: #0f172a;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 24px;
+    }
+    .gallery-card {
+      background: #ffffff;
+      border-radius: 18px;
+      border: 1px solid #e2e8f0;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .gallery-card:hover {
+      transform: translateY(-4px);
+      border-color: #0d9488;
+      box-shadow: 0 16px 30px -10px rgba(0, 0, 0, 0.1);
+    }
+    .thumb-box {
+      position: relative;
+      width: 100%;
+      height: 260px;
+      background: #0f172a;
+      overflow: hidden;
+    }
+    .thumb-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .gallery-card:hover .thumb-box img {
+      transform: scale(1.05);
+    }
+    .thumb-pill {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(6px);
+      color: #ffffff;
+      font-size: 11px;
+      font-family: monospace;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .pill-water {
+      background: #0284c7;
+      border-color: #38bdf8;
+    }
+    .gc-info {
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+    .gc-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+    .gc-desc {
+      font-size: 13px;
+      color: #64748b;
+    }
+    .gc-foot {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 800;
+      color: #0d9488;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid #f1f5f9;
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.88);
+      backdrop-filter: blur(8px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+      padding: 20px;
+    }
+    .modal-backdrop.active {
+      display: flex;
+    }
+    .modal-box {
+      background: #ffffff;
+      border-radius: 20px;
+      max-width: 780px;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    .modal-media {
+      width: 100%;
+      height: 420px;
+      background: #000;
+    }
+    .modal-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .modal-meta {
+      padding: 22px;
+    }
+    .modal-close-btn {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: rgba(15, 23, 42, 0.8);
+      color: #ffffff;
+      border: none;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* ================= SECTION: CALCULATOR ================= */
+    .calc-section {
+      padding: 80px 0;
+      background: #f8fafc;
+      border-top: 1px solid #e2e8f0;
+    }
+    .calc-app-wrap {
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+    @media (max-width: 1024px) {
+      .calc-app-wrap {
+        grid-template-columns: 1fr;
+      }
+    }
+    .calc-panel {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 16px;
+      padding: 22px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    }
+    .panel-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #0f766e;
+      font-size: 17px;
+      font-weight: 800;
+      border-bottom: 2px solid #ccfbf1;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+    .sub-head {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #0f766e;
+      margin: 14px 0 8px 0;
+    }
+    .f-group {
+      margin-bottom: 10px;
+    }
+    .f-group label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: #334155;
+      margin-bottom: 4px;
+    }
+    .f-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    input[type="text"], input[type="number"], input[type="date"] {
+      width: 100%;
+      height: 38px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 0 10px;
+      font-size: 13px;
+      font-weight: 600;
+      background: #f8fafc;
+      outline: none;
+    }
+    input:focus {
+      border-color: #0d9488;
+      background: #ffffff;
+    }
+    .check-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #334155;
+      margin-top: 6px;
+      cursor: pointer;
+    }
+    .check-wrap input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      accent-color: #0d9488;
+    }
+    .tiers-scroll {
+      max-height: 220px;
+      overflow-y: auto;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      margin-top: 6px;
+    }
+    .tiers-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    .tiers-table th {
+      background: #ccfbf1;
+      color: #0f766e;
+      padding: 6px 10px;
+      position: sticky;
+      top: 0;
+      font-weight: 800;
+    }
+    .tiers-table td {
+      padding: 6px 10px;
+      border-bottom: 1px solid #f1f5f9;
+      font-weight: 600;
+    }
+
+    /* Printable Live Invoice Sheet */
+    .invoice-card {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 16px;
+      padding: 36px 40px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+    @media (max-width: 640px) {
+      .invoice-card {
+        padding: 20px;
+      }
+    }
+    .inv-top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #0f766e;
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+      gap: 20px;
+    }
+    .inv-logo-img {
+      max-width: 250px;
+      height: auto;
+      margin-bottom: 6px;
+    }
+    .inv-contacts {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #dc2626;
+    }
+    .inv-service-scope {
+      font-size: 12px;
+      color: #475569;
+      font-weight: 600;
+    }
+    .inv-header-meta {
+      text-align: right;
+    }
+    .inv-badge-title {
+      font-size: 24px;
+      font-weight: 900;
+      color: #0f172a;
+      letter-spacing: 0.05em;
+    }
+    .inv-ref {
+      font-size: 12px;
+      font-family: monospace;
+      font-weight: 700;
+      color: #64748b;
+      margin-top: 4px;
+    }
+    .inv-strip {
+      display: grid;
+      grid-template-columns: 1.4fr 1.6fr 1fr;
+      background: #f0fdfa;
+      border: 1px solid #ccfbf1;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
+    @media (max-width: 768px) {
+      .inv-strip {
+        grid-template-columns: 1fr;
+      }
+    }
+    .strip-label {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #0f766e;
+    }
+    .strip-value {
+      font-size: 14px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-top: 2px;
+    }
+    .inv-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .inv-table th {
+      background: #f8fafc;
+      color: #0f766e;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 11px;
+      border-bottom: 2px solid #0d9488;
+      padding: 10px 8px;
+    }
+    .inv-table td {
+      padding: 8px 8px;
+      border-bottom: 1px solid #e2e8f0;
+      font-weight: 600;
+      color: #334155;
+    }
+    .text-right { text-align: right; }
+    .text-center { text-align: center; }
+
+    .inv-totals-box-wrap {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 22px;
+    }
+    .inv-totals-box {
+      width: 390px;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .total-line {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #475569;
+      margin-bottom: 7px;
+      font-weight: 600;
+    }
+    .total-line .val {
+      font-family: monospace;
+      font-weight: 800;
+      color: #0f172a;
+    }
+    .total-line.grand {
+      border-top: 2px solid #0f766e;
+      padding-top: 10px;
+      margin-top: 8px;
+      margin-bottom: 0;
+      font-size: 16px;
+      font-weight: 900;
+      color: #0f766e;
+    }
+    .total-line.grand .val {
+      font-size: 20px;
+      color: #0f766e;
+    }
+    .inv-action-row {
+      display: flex;
+      gap: 12px;
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px dashed #cbd5e1;
+    }
+    .btn-inv {
+      flex: 1;
+      height: 44px;
+      border: none;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: opacity 0.2s;
+    }
+    .btn-print { background: #0f172a; color: #ffffff; }
+    .btn-wa-inv { background: #16a34a; color: #ffffff; }
+    .btn-inv:hover { opacity: 0.9; }
+
+    /* ================= SECTION: CONTACT & SOCIAL ================= */
+    .contact-section {
+      padding: 80px 0;
+      background: #ffffff;
+      border-top: 1px solid #e2e8f0;
+    }
+    .social-banner-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 32px;
+    }
+    @media (max-width: 768px) {
+      .social-banner-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .social-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 18px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+    }
+    .social-card:hover {
+      border-color: #cbd5e1;
+    }
+    .sc-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .sc-icon-box {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .sc-yt-box { background: #fee2e2; color: #ef4444; }
+    .sc-ig-box { background: #fdf2f8; color: #ec4899; }
+    .sc-name {
+      font-size: 15px;
+      font-weight: 800;
+      color: #0f172a;
+    }
+    .sc-sub {
+      font-size: 12px;
+      color: #64748b;
+      margin-top: 2px;
+    }
+    .sc-btn {
+      padding: 9px 18px;
+      font-size: 12.5px;
+      font-weight: 800;
+      color: #ffffff;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    .sc-yt-btn { background: #dc2626; }
+    .sc-ig-btn { background: linear-gradient(45deg, #f09433, #dc2743, #bc1888); }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    }
+    @media (max-width: 992px) {
+      .contact-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+    .contact-info-col {
+      padding: 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .c-line {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .c-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: #f0fdfa;
+      border: 1px solid #ccfbf1;
+      color: #0f766e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .c-tag {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #64748b;
+      margin-bottom: 2px;
+    }
+    .c-detail {
+      font-size: 14px;
+      font-weight: 600;
+      color: #0f172a;
+      line-height: 1.5;
+    }
+    .call-btn-row {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .c-call-pill {
+      background: #0f5c35;
+      color: #ffffff;
+      font-size: 13.5px;
+      font-weight: 800;
+      padding: 9px 16px;
+      border-radius: 10px;
+      width: fit-content;
+    }
+    .map-frame-box {
+      position: relative;
+      min-height: 380px;
+      width: 100%;
+      background: #e2e8f0;
+    }
+    .map-frame-box iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* ================= FOOTER ================= */
+    .varahi-footer {
+      background-color: #111a24;
+      color: #94a3b8;
+      padding: 60px 0 30px 0;
+      border-top: 1px solid #1e293b;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1.3fr;
+      gap: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #1e293b;
+    }
+    @media (max-width: 900px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    }
+    .footer-logo-card {
+      display: inline-block;
+      background: #ffffff;
+      padding: 8px 16px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+    .footer-logo-img {
+      height: 44px;
+      width: auto;
+    }
+    .footer-slogan {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #e2e8f0;
+    }
+    .footer-desc {
+      font-size: 13px;
+      line-height: 1.6;
+      color: #94a3b8;
+      margin-top: 10px;
+      max-width: 440px;
+    }
+    .footer-head {
+      font-size: 15px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 16px;
+    }
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+    .footer-links a {
+      color: #94a3b8;
+      font-size: 13.5px;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover {
+      color: #22c55e;
+    }
+    .footer-contacts-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 13.5px;
+    }
+    .f-contact-item a {
+      color: #f8fafc;
+      font-weight: 700;
+    }
+    .footer-bottom-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-top: 24px;
+    }
+    .footer-socials {
+      display: flex;
+      gap: 10px;
+    }
+    .f-soc-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: #1e293b;
+      color: #94a3b8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #334155;
+      transition: all 0.2s;
+    }
+    .f-soc-icon:hover {
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+    .f-soc-icon.ig:hover { background: #e1306c; }
+    .f-soc-icon.yt:hover { background: #ef4444; }
+    .f-soc-icon.wa:hover { background: #22c55e; }
+    .f-soc-icon.map:hover { background: #0284c7; }
+
+    /* Print styling */
+    @media print {
+      body { background: #ffffff; }
+      .site-header, .hero-section, .features-section, .services-section, .gallery-section, .contact-section, .varahi-footer, .calc-panel, .inv-action-row {
+        display: none !important;
+      }
+      .calc-app-wrap { display: block; }
+      .invoice-card { border: none; box-shadow: none; padding: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= 1. HEADER WITH BRAND LOGO ================= -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="nav-brand">
+        <img src="ChatGPT Image Sep 10, 2026, 01_22_43 PM.png" alt="Sri Varahi Borewells" class="nav-logo-img" />
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#hero">Home</a>
+        <a href="#features">Why Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Fleet & Gallery</a>
+        <a href="#calculator">Slab Calculator</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-cta-group">
+        <a href="tel:+919985649952" class="btn-nav-call">📞 99856 49952</a>
+        <a href="#calculator" class="btn-nav-calc">Get Estimate</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ================= 2. HERO SECTION WITH TRUCK BACKGROUND ================= -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left: Value Prop & CTAs -->
+        <div>
+          <div class="hero-pretitle">
+            <span>●</span> HYDERABAD TRUSTED BOREWELL EXPERTS • 24/7 FLEET
+          </div>
+          <h1 class="hero-title">
+            Groundwater Drilling <br/>
+            Engineered with <span>Precision.</span>
+          </h1>
+          <p class="hero-desc">
+            High-pressure air compressor rigs paired with scientific geological sounding. Maximum water yield for agriculture farms, residential homes, and commercial industries.
+          </p>
+
+          <div class="hero-btn-row">
+            <a href="#calculator" class="btn-hero-calc">
+              Calculate Drilling Cost →
+            </a>
+            <a href="https://wa.me/919985649952?text=Hi%20Sri%20Varahi%20Borewells,%20I%20want%20to%20know%20about%20drilling%20rates" target="_blank" rel="noopener" class="btn-hero-wa">
+              💬 WhatsApp Direct
+            </a>
+          </div>
+
+          <div class="hero-specs-strip">
+            <div>
+              <div class="spec-metric">2,000+ <span style="font-size:14px; color:#2dd4bf;">FT</span></div>
+              <div class="spec-label">Deep Rock Drilling</div>
+            </div>
+            <div>
+              <div class="spec-metric">100%</div>
+              <div class="spec-label">Heavy ISI PVC Casing</div>
+            </div>
+            <div>
+              <div class="spec-metric">24/7</div>
+              <div class="spec-label">Emergency Rig Dispatch</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Requirement Specifier Tool -->
+        <div>
+          <div class="hero-card">
+            <div class="hc-top">
+              <span class="hc-title">Quick Requirement Specifier</span>
+              <span class="hc-step">Instant Sizing</span>
+            </div>
+
+            <div class="tab-pills">
+              <button class="tab-pill-btn active" id="pill-agri" onclick="selectType('agri')">🌱 Agriculture</button>
+              <button class="tab-pill-btn" id="pill-home" onclick="selectType('home')">🏡 Domestic</button>
+              <button class="tab-pill-btn" id="pill-ind" onclick="selectType('ind')">🏭 Commercial</button>
+            </div>
+
+            <div class="spec-details-box">
+              <div class="spec-item">
+                <span>Recommended Diameter:</span>
+                <span id="spec-dia">6½" High-Volume Bore</span>
+              </div>
+              <div class="spec-item">
+                <span>Drill Bit Technology:</span>
+                <span id="spec-bit">DTH Tungsten Button Bit</span>
+              </div>
+              <div class="spec-item">
+                <span>Target Depth Range:</span>
+                <span id="spec-depth">400 – 900+ Feet</span>
+              </div>
+              <div class="spec-item">
+                <span>Primary Goal:</span>
+                <span id="spec-obj">Maximum Water Discharge</span>
+              </div>
+            </div>
+
+            <a href="#calculator" class="hc-cta">
+              Calculate Exact Bill for This Setup →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= 3. WHY CHOOSE SECTION ================= -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="center-header">
+        <span class="badge-chip">Engineering Standards</span>
+        <h2 class="section-title">Why Choose Sri Varahi Borewells?</h2>
+        <p class="section-desc">We operate modern multi-axle drilling rigs backed by strata survey science for uninterrupted water access.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="fc-top">
+            <div class="fc-icon">⚡</div>
+            <span class="fc-chip">Up to 2000+ Ft</span>
+          </div>
+          <h3 class="fc-title">Ultra-Deep Rock Penetration</h3>
+          <p class="fc-desc">Equipped with heavy tungsten carbide DTH button bits capable of piercing hard blue granite and deep aquifers with high precision.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="fc-top">
+            <div class="fc-icon">🚜</div>
+            <span class="fc-chip">1100–1350 CFM</span>
+          </div>
+          <h3 class="fc-title">High-Pressure Compressors</h3>
+          <p class="fc-desc">High-volume 350+ PSI air compressors ensure rapid cuttings discharge, cleaner bores, and minimal cave-in risk during drilling.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="fc-top">
+            <div class="fc-icon">💧</div>
+            <span class="fc-chip">Geological Sounding</span>
+          </div>
+          <h3 class="fc-title">Scientific Water Vein Tapping</h3>
+          <p class="fc-desc">Electronic resistivity ground surveys locate deep aquifer fractures accurately before drilling begins.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="fc-top">
+            <div class="fc-icon">🛡️</div>
+            <span class="fc-chip">7" & 10" ISI Pipes</span>
+          </div>
+          <h3 class="fc-title">Certified Heavy ISI Casing</h3>
+          <p class="fc-desc">Thick-wall PVC and MS steel casing seated firmly into solid bedrock prevents topsoil silt and loose boulders from collapsing inside.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="fc-top">
+            <div class="fc-icon">📊</div>
+            <span class="fc-chip">Zero Hidden Bills</span>
+          </div>
+          <h3 class="fc-title">Transparent Slab Rates</h3>
+          <p class="fc-desc">Standardized 100 ft progressive depth rates confirmed upfront. You know the exact cost per foot before the drill turns.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="fc-top">
+            <div class="fc-icon">💨</div>
+            <span class="fc-chip">Well Rejuvenation</span>
+          </div>
+          <h3 class="fc-title">Air Flushing & Re-Bore</h3>
+          <p class="fc-desc">Compressor air cleaning removes decades of mud and sediment from clogged bores, re-opening natural water passages.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= 4. SERVICES SECTION ================= -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="center-header">
+        <span class="badge-chip">Complete Solutions</span>
+        <h2 class="section-title">Our Specialized Services</h2>
+        <p class="section-desc">From new point drilling to well rehabilitation and pump recovery across Telangana and Andhra Pradesh.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div>
+            <div class="sc-icon">⚙️</div>
+            <h3 class="sc-title">Deep Borewell Drilling</h3>
+            <p class="sc-desc">High-pressure DTH drilling for 4½", 6½", 8", 10", and 12" diameter boreholes across farmlands, plots, and industrial layouts.</p>
+            <div class="sc-tags">
+              <span>4½" to 12" Bores</span>
+              <span>Granite Rock Bit</span>
+            </div>
+          </div>
+          <a href="https://wa.me/919985649952?text=Inquiring%20about%20New%20Borewell%20Drilling" target="_blank" rel="noopener" class="sc-link">Inquire About Drilling →</a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div>
+            <div class="sc-icon">📡</div>
+            <h3 class="sc-title">Geological Aquifer Survey</h3>
+            <p class="sc-desc">Multi-electrode resistivity sounding maps underground rock strata and water potential to minimize dry-well risks.</p>
+            <div class="sc-tags">
+              <span>Electronic Survey</span>
+              <span>Pre-Drill Sounding</span>
+            </div>
+          </div>
+          <a href="https://wa.me/919985649952?text=Inquiring%20about%20Geological%20Groundwater%20Survey" target="_blank" rel="noopener" class="sc-link">Book Groundwater Survey →</a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div>
+            <div class="sc-icon">💨</div>
+            <h3 class="sc-title">High-Pressure Air Flushing</h3>
+            <p class="sc-desc">Air compressor blasts wash out accumulated mud and bio-silt from blocked wells to restore natural groundwater flow.</p>
+            <div class="sc-tags">
+              <span>350+ PSI Blast</span>
+              <span>Well Cleaning</span>
+            </div>
+          </div>
+          <a href="https://wa.me/919985649952?text=Inquiring%20about%20Air%20Flushing" target="_blank" rel="noopener" class="sc-link">Book Well Cleaning →</a>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div>
+            <div class="sc-icon">🛡️</div>
+            <h3 class="sc-title">ISI Casing Pipe Installation</h3>
+            <p class="sc-desc">Precision installation of 7" & 10" certified PVC and MS slotted casing seated deep in bedrock to seal out silt and surface run-off.</p>
+            <div class="sc-tags">
+              <span>7" Heavy PVC</span>
+              <span>MS Slotted Pipe</span>
+            </div>
+          </div>
+          <a href="https://wa.me/919985649952?text=Inquiring%20about%20Casing%20Pipes" target="_blank" rel="noopener" class="sc-link">Casing Specifications →</a>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card">
+          <div>
+            <div class="sc-icon">📈</div>
+            <h3 class="sc-title">Water Yield Flow Testing</h3>
+            <p class="sc-desc">V-Notch weir testing calculates exact flow rates (GPH or inches of water) to ensure proper pump motor sizing.</p>
+            <div class="sc-tags">
+              <span>V-Notch Test</span>
+              <span>Motor Sizing</span>
+            </div>
+          </div>
+          <a href="https://wa.me/919985649952?text=Inquiring%20about%20Yield%20Testing" target="_blank" rel="noopener" class="sc-link">Schedule Flow Check →</a>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card">
+          <div>
+            <div class="sc-icon">🚨</div>
+            <h3 class="sc-title">Motor Fishing & Recovery</h3>
+            <p class="sc-desc">Specialized recovery tools (fishing taps, spears, grapples) safely retrieve dropped submersible pumps and snapped riser pipes.</p>
+            <div class="sc-tags">
+              <span>Emergency Rescue</span>
+              <span>Zero-Damage Retrieval</span>
+            </div>
+          </div>
+          <a href="https://wa.me/919985649952?text=Inquiring%20about%20Stuck%20Motor%20Recovery" target="_blank" rel="noopener" class="sc-link">Emergency Assistance →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= 5. FLEET & WORK GALLERY ================= -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="center-header">
+        <span class="badge-chip">Proof of Work</span>
+        <h2 class="section-title">Field Operations & Fleet</h2>
+        <p class="section-desc">Real sites, real depths. Inspect our heavy rig trucks, on-site bit sharpening, and verified water strikes across Telangana & Andhra Pradesh.</p>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" onclick="filterGallery('all', this)">All Works</button>
+        <button class="filter-btn" onclick="filterGallery('fleet', this)">Rigs & Fleet</button>
+        <button class="filter-btn" onclick="filterGallery('drilling', this)">Live Drilling</button>
+        <button class="filter-btn" onclick="filterGallery('water', this)">Water Strikes</button>
+        <button class="filter-btn" onclick="filterGallery('tech', this)">Bit Maintenance</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryContainer">
+        <!-- Item 1: Heavy Compressor Rig Fleet (Updated borewellrig.jpeg) -->
+        <div class="gallery-card" data-category="fleet" onclick="openModal('borewellrig.jpeg', 'Sri Varahi High-CFM Rig Fleet (TG08 AK 6747)', 'Heavy-duty multi-axle truck equipped with an industrial high-pressure air compressor for ultra-deep rock penetration.')">
+          <div class="thumb-box">
+            <span class="thumb-pill">RIG TRUCK #1</span>
+            <img src="borewellrig.jpeg" alt="Sri Varahi Borewells Rig Truck" />
+          </div>
+          <div class="gc-info">
+            <div>
+              <h3 class="gc-title">Heavy Compressor Rig Fleet</h3>
+              <p class="gc-desc">KLR dual-axle rig truck mobilization ready for rural farmlands and urban gated communities.</p>
+            </div>
+            <div class="gc-foot">
+              <span>Reg: TG-08-AK-6747</span>
+              <span>View Photo ↗</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-card" data-category="water" onclick="openModal('742111081_17889107874603388_4861668168357289521_n.jpeg', '800 Ft Abundant Aquifer Tap', 'Successful deep water strike achieved at 800 feet depth. High-velocity clean water discharge through air lift.')">
+          <div class="thumb-box">
+            <span class="thumb-pill pill-water">800 FT FULL WATER</span>
+            <img src="742111081_17889107874603388_4861668168357289521_n.jpeg" alt="800 ft Water Strike" />
+          </div>
+          <div class="gc-info">
+            <div>
+              <h3 class="gc-title">800 Ft Clean Water Strike</h3>
+              <p class="gc-desc">Massive aquifer reached in residential layout with full discharge and stable rock walls.</p>
+            </div>
+            <div class="gc-foot">
+              <span>Depth: 800 Feet</span>
+              <span>View Photo ↗</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-card" data-category="drilling" onclick="openModal('719099243_1724842885202777_2819802361385189738_n.jpeg', '653 Ft Precision Agricultural Drilling', 'Full mast extension on farmland drilling project. Continuous pipe feeding with hydraulic drive head.')">
+          <div class="thumb-box">
+            <span class="thumb-pill">653 FT MAST</span>
+            <img src="719099243_1724842885202777_2819802361385189738_n.jpeg" alt="653 ft Drilling Operation" />
+          </div>
+          <div class="gc-info">
+            <div>
+              <h3 class="gc-title">653 Ft Farm Borewell Setup</h3>
+              <p class="gc-desc">Vertical mast alignment in open agricultural field ensuring a straight borehole.</p>
+            </div>
+            <div class="gc-foot">
+              <span>Depth: 653 Feet</span>
+              <span>View Photo ↗</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-card" data-category="tech" onclick="openModal('775633514_17896655778603388_1826513759450875041_n.jpeg', '6.5 Inch Button Bit Grinding', 'On-site sharpening of tungsten carbide buttons to maintain rapid penetration in hard blue granite formations.')">
+          <div class="thumb-box">
+            <span class="thumb-pill">6.5" DTH BIT</span>
+            <img src="775633514_17896655778603388_1826513759450875041_n.jpeg" alt="6.5 Inch Bit Grinding" />
+          </div>
+          <div class="gc-info">
+            <div>
+              <h3 class="gc-title">Button Bit On-Site Servicing</h3>
+              <p class="gc-desc">Regular tungsten carbide grinding guarantees zero stuck bits and maximum drill velocity.</p>
+            </div>
+            <div class="gc-foot">
+              <span>Tool: DTH Carbide</span>
+              <span>View Photo ↗</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-card" data-category="water" onclick="openModal('773686708_17896656270603388_2201292761995534937_n.jpeg', 'Aquifer Penetration & Slurry Flushing', 'Air blast clearing pulverized rock cuttings as a high-yield groundwater vein is tapped.')">
+          <div class="thumb-box">
+            <span class="thumb-pill pill-water">AQUIFER TAPPED</span>
+            <img src="773686708_17896656270603388_2201292761995534937_n.jpeg" alt="Aquifer Tapped" />
+          </div>
+          <div class="gc-info">
+            <div>
+              <h3 class="gc-title">High-Pressure Water Discharge</h3>
+              <p class="gc-desc">Real-time cuttings clearance showing rich water flow from deep underground strata.</p>
+            </div>
+            <div class="gc-foot">
+              <span>Result: High Yield</span>
+              <span>View Photo ↗</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-card" data-category="drilling" onclick="openModal('741806424_17889125481603388_3717082029388399306_n.jpeg', '24/7 Continuous Night Drilling', 'Equipped with heavy floodlights for continuous drilling shifts in residential sites to minimize project turnaround time.')">
+          <div class="thumb-box">
+            <span class="thumb-pill">24/7 OPERATIONS</span>
+            <img src="741806424_17889125481603388_3717082029388399306_n.jpeg" alt="Night Drilling Operations" />
+          </div>
+          <div class="gc-info">
+            <div>
+              <h3 class="gc-title">24/7 Night Shift Drilling</h3>
+              <p class="gc-desc">Rapid residential project completion with full water table breakthrough under floodlights.</p>
+            </div>
+            <div class="gc-foot">
+              <span>Support: 24/7 Active</span>
+              <span>View Photo ↗</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="modal-backdrop" id="galleryModal" onclick="closeModal(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close-btn" onclick="closeModal()">&times;</button>
+      <div class="modal-media">
+        <img id="modalImg" src="" alt="Project Photo" />
+      </div>
+      <div class="modal-meta">
+        <h3 id="modalTitle" style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 6px;"></h3>
+        <p id="modalDesc" style="font-size: 13.5px; color: #64748b; line-height: 1.5;"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ================= 6. LIVE INVOICE & DEPTH SLAB CALCULATOR ================= -->
+  <section class="calc-section" id="calculator">
+    <div class="container">
+      <div class="center-header">
+        <span class="badge-chip">Farmer-Friendly Billing</span>
+        <h2 class="section-title">Borewell Quotation & Invoice Generator</h2>
+        <p class="section-desc">Adjust depth and casing to view your transparent, itemized quotation breakdown. Print or export directly to WhatsApp.</p>
+      </div>
+
+      <div class="calc-app-wrap">
+        
+        <!-- Left Controls Panel -->
+        <div class="calc-panel">
+          <div class="panel-header">
+            <span>⚡</span> Sri Varahi Calculator
+          </div>
+
+          <div class="sub-head">Agency Information</div>
+          <div class="f-group">
+            <label>Agency Name</label>
+            <input type="text" id="agencyName" value="Sri Varahi Borewells" oninput="renderInvoice()" />
+          </div>
+          <div class="f-group">
+            <label>Contact Numbers</label>
+            <input type="text" id="agencyPhones" value="Cell: 9985649952, 9391669952" oninput="renderInvoice()" />
+          </div>
+
+          <div class="sub-head">Customer & Depth</div>
+          <div class="f-group">
+            <label>Customer Name / Location</label>
+            <input type="text" id="customerLocation" value="Agricultural Borewell - Hyderabad" oninput="renderInvoice()" />
+          </div>
+
+          <div class="f-row">
+            <div class="f-group">
+              <label>Invoice Date</label>
+              <input type="date" id="invDate" oninput="renderInvoice()" />
+            </div>
+            <div class="f-group">
+              <label>Total Depth (Feet)</label>
+              <input type="number" id="totalDepthInput" value="650" min="50" max="2200" step="50" oninput="renderInvoice()" />
+            </div>
+          </div>
+
+          <div class="sub-head">Casing Pipe & Essentials</div>
+          <div class="f-row">
+            <div class="f-group">
+              <label>7" PVC Length (Ft)</label>
+              <input type="number" id="casingLength" value="40" min="0" oninput="renderInvoice()" />
+            </div>
+            <div class="f-group">
+              <label>Casing Rate / Ft (₹)</label>
+              <input type="number" id="casingRate" value="420" min="0" oninput="renderInvoice()" />
+            </div>
+          </div>
+
+          <div class="f-row">
+            <div class="f-group">
+              <label>Casing Cap (₹)</label>
+              <input type="number" id="capCharge" value="500" min="0" oninput="renderInvoice()" />
+            </div>
+            <div class="f-group">
+              <label>Welding / Joint (₹)</label>
+              <input type="number" id="weldingCharge" value="600" min="0" oninput="renderInvoice()" />
+            </div>
+          </div>
+
+          <div class="sub-head">Labour & Transport Charges</div>
+          <div class="f-row">
+            <div class="f-group">
+              <label>Labour Charges (₹)</label>
+              <input type="number" id="labourCharge" value="1500" min="0" oninput="renderInvoice()" />
+            </div>
+            <div class="f-group">
+              <label>Transport Charges (₹)</label>
+              <input type="number" id="transportCharge" value="2500" min="0" oninput="renderInvoice()" />
+            </div>
+          </div>
+
+          <div class="f-group" style="margin-top: 6px;">
+            <label class="check-wrap">
+              <input type="checkbox" id="includeFlushing" onchange="renderInvoice()" checked />
+              Include Air Flushing & Well Cleaning (₹1,500)
+            </label>
+          </div>
+
+          <div class="sub-head">Tiered Depth Rates (₹/Ft)</div>
+          <div class="tiers-scroll">
+            <table class="tiers-table">
+              <thead>
+                <tr>
+                  <th style="text-align:left;">Depth Range</th>
+                  <th class="text-right">Rate / Ft (₹)</th>
+                </tr>
+              </thead>
+              <tbody id="tierRatesBody">
+                <!-- Injected by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Right Printable Invoice -->
+        <div class="invoice-card" id="printArea">
+          <div class="inv-top-bar">
+            <div>
+              <img src="ChatGPT Image Sep 10, 2026, 01_22_43 PM.png" alt="Sri Varahi Borewells Logo" class="inv-logo-img" />
+              <div class="inv-contacts" id="invBrandPhones">Cell: 9985649952, 9391669952</div>
+              <div class="inv-service-scope">Hyderabad trusted Borewell experts | 24/7 Service available</div>
+            </div>
+            <div class="inv-header-meta">
+              <div class="inv-badge-title">INVOICE</div>
+              <div class="inv-ref"># SVB-2026-HYD &nbsp;|&nbsp; <span id="invDateDisplay">10/09/2026</span></div>
+            </div>
+          </div>
+
+          <div class="inv-strip">
+            <div>
+              <div class="strip-label">Customer / Location</div>
+              <div class="strip-value" id="invCustomerDisplay">Agricultural Borewell - Hyderabad</div>
+            </div>
+            <div>
+              <div class="strip-label">Casing Specification</div>
+              <div class="strip-value" id="invCasingDisplay">40 Ft (7") @ ₹420/Ft</div>
+            </div>
+            <div class="text-right">
+              <div class="strip-label">Total Depth</div>
+              <div class="strip-value" id="invDepthDisplay">650 Feet</div>
+            </div>
+          </div>
+
+          <table class="inv-table">
+            <thead>
+              <tr>
+                <th class="text-center">#</th>
+                <th style="text-align:left;">Depth Range (Feet)</th>
+                <th class="text-right">Interval</th>
+                <th class="text-right">Rate / Ft (₹)</th>
+                <th class="text-right">Amount (₹)</th>
+              </tr>
+            </thead>
+            <tbody id="invoiceTableBody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+
+          <div class="inv-totals-box-wrap">
+            <div class="inv-totals-box">
+              <div class="total-line">
+                <span>Total Drilling Charges:</span>
+                <span class="val" id="invDrillingTotal">₹0.00</span>
+              </div>
+              <div class="total-line">
+                <span>7" Casing Pipe Charges:</span>
+                <span class="val" id="invCasingTotal">₹0.00</span>
+              </div>
+              <div class="total-line">
+                <span>Bore Casing Cap:</span>
+                <span class="val" id="invCapTotal">₹0.00</span>
+              </div>
+              <div class="total-line">
+                <span>Welding & Joint Setup:</span>
+                <span class="val" id="invWeldingTotal">₹0.00</span>
+              </div>
+              <div class="total-line">
+                <span>Labour Charges:</span>
+                <span class="val" id="invLabourTotal">₹0.00</span>
+              </div>
+              <div class="total-line">
+                <span>Transport & Rig Fuel:</span>
+                <span class="val" id="invTransportTotal">₹0.00</span>
+              </div>
+              <div class="total-line" id="invFlushingRow">
+                <span>High-Pressure Air Flushing:</span>
+                <span class="val" id="invFlushingTotal">₹0.00</span>
+              </div>
+              <div class="total-line grand">
+                <span>Total Estimated Cost:</span>
+                <span class="val" id="invGrandTotal">₹0.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="inv-action-row">
+            <button class="btn-inv btn-print" onclick="window.print()">
+              🖨️ Print Official Invoice (A4)
+            </button>
+            <button class="btn-inv btn-wa-inv" onclick="sendInvoiceWhatsApp()">
+              💬 Share Bill on WhatsApp
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= 7. CONTACT & SOCIAL CONNECT ================= -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="center-header">
+        <span class="badge-chip">Get in Touch</span>
+        <h2 class="section-title">Contact & Social Channels</h2>
+        <p class="section-desc">Visit our yard, call for urgent rig dispatch, or watch our live drilling reels on YouTube & Instagram.</p>
+      </div>
+
+      <!-- Social Cards -->
+      <div class="social-banner-grid">
+        <div class="social-card">
+          <div class="sc-left">
+            <div class="sc-icon-box sc-yt-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </div>
+            <div>
+              <div class="sc-name">@SriVarahiBorewells</div>
+              <div class="sc-sub">Watch live drilling & 800+ ft water strikes</div>
+            </div>
+          </div>
+          <a href="https://www.youtube.com/@SriVarahiBorewells" target="_blank" rel="noopener" class="sc-btn sc-yt-btn">Watch on YouTube</a>
+        </div>
+
+        <div class="social-card">
+          <div class="sc-left">
+            <div class="sc-icon-box sc-ig-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </div>
+            <div>
+              <div class="sc-name">@sri_varahi_borewells</div>
+              <div class="sc-sub">Follow for daily reels & rig action</div>
+            </div>
+          </div>
+          <a href="https://instagram.com/sri_varahi_borewells" target="_blank" rel="noopener" class="sc-btn sc-ig-btn">Follow on Instagram</a>
+        </div>
+      </div>
+
+      <!-- Main Contact Card & Google Maps -->
+      <div class="contact-layout">
+        <div class="contact-info-col">
+          <div class="c-line">
+            <div class="c-icon">📍</div>
+            <div>
+              <div class="c-tag">Yard & Operations Address</div>
+              <div class="c-detail">
+                Sri Varahi Borewells,<br/>
+                Moinabad, Himayath Nagar, Aziznagar,<br/>
+                Hyderabad, Telangana 500075
+              </div>
+              <a href="https://maps.google.com/?q=Sri+Varahi+Borewells,+Moinabad,+himayath+nagar,+Aziznagar,+Hyderabad,+Telangana+500075" target="_blank" rel="noopener" style="font-size:12px; font-weight:700; color:#0d9488; display:inline-block; margin-top:4px;">
+                Open in Google Maps App ↗
+              </a>
+            </div>
+          </div>
+
+          <div class="c-line">
+            <div class="c-icon">📞</div>
+            <div>
+              <div class="c-tag">24/7 Rig Booking & Dispatch</div>
+              <div class="call-btn-row">
+                <a href="tel:+919985649952" class="c-call-pill">📞 +91 99856 49952</a>
+                <a href="tel:+919391669952" class="c-call-pill">📞 +91 93916 69952</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="c-line">
+            <div class="c-icon">💬</div>
+            <div>
+              <div class="c-tag">WhatsApp Inquiry</div>
+              <a href="https://wa.me/919985649952?text=Hi%20Sri%20Varahi%20Borewells,%20I%20need%20a%20borewell%20drilling%20quote" target="_blank" rel="noopener" style="font-size:14px; font-weight:800; color:#16a34a;">
+                Chat on WhatsApp Directly →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-frame-box">
+          <iframe 
+            title="Sri Varahi Borewells Google Map"
+            src="https://maps.google.com/maps?q=Sri%20Varahi%20Borewells,%20Moinabad,%20himayath%20nagar,%20Aziznagar,%20Hyderabad,%20Telangana%20500075&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= 8. FOOTER WITH LOGO ================= -->
+  <footer class="varahi-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Brand & Logo -->
+        <div>
+          <div class="footer-logo-card">
+            <img src="ChatGPT Image Sep 10, 2026, 01_22_43 PM.png" alt="Sri Varahi Borewells Logo" class="footer-logo-img" />
+          </div>
+          <div class="footer-slogan">Hyderabad Trusted Borewell Experts!</div>
+          <p class="footer-desc">
+            Professional high-depth borewell drilling, well air flushing, and electronic geological groundwater surveys across Telangana & Andhra Pradesh.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-head">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#gallery">Fleet & Work Gallery</a></li>
+            <li><a href="#calculator">Slab Rate Calculator</a></li>
+            <li><a href="#contact">Contact & Yard Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h4 class="footer-head">Contact Info</h4>
+          <div class="footer-contacts-list">
+            <div class="f-contact-item">
+              📞 <a href="tel:+919985649952">+91 99856 49952</a>
+            </div>
+            <div class="f-contact-item">
+              📞 <a href="tel:+919391669952">+91 93916 69952</a>
+            </div>
+            <div class="f-contact-item" style="color:#cbd5e1;">
+              📍 Moinabad, Himayath Nagar, Aziznagar, Hyderabad, Telangana 500075
+            </div>
+            <div class="f-contact-item" style="color:#4ade80; font-weight:700;">
+              ⏰ 24/7 Rig Booking Available
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-row">
+        <div class="footer-socials">
+          <a href="https://instagram.com/sri_varahi_borewells" target="_blank" rel="noopener" class="f-soc-icon ig" title="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@SriVarahiBorewells" target="_blank" rel="noopener" class="f-soc-icon yt" title="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="https://wa.me/919985649952?text=Hi%20Sri%20Varahi%20Borewells,%20I%20need%20details" target="_blank" rel="noopener" class="f-soc-icon wa" title="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.77.814 2.796.814 3.18 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.768-5.768-5.768zm0 10.378c-.896 0-1.745-.251-2.483-.717l-.178-.112-1.84.483.492-1.794-.122-.195c-.512-.816-.782-1.751-.782-2.709 0-2.529 2.057-4.586 4.586-4.586 2.529 0 4.586 2.057 4.586 4.586 0 2.529-2.057 4.586-4.586 4.586z"/></svg>
+          </a>
+          <a href="https://maps.google.com/?q=Sri+Varahi+Borewells,+Moinabad,+himayath+nagar,+Aziznagar,+Hyderabad,+Telangana+500075" target="_blank" rel="noopener" class="f-soc-icon map" title="Google Maps">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </a>
+        </div>
+        <div style="font-size: 12.5px; color: #64748b;">
+          © 2026 Sri Varahi Borewells. All rights reserved. Hyderabad, Telangana.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ================= 9. JAVASCRIPT LOGIC ================= -->
+  <script>
+    // 1. Requirement Specifier Logic
+    const reqData = {
+      agri: {
+        dia: '6½" High-Volume Bore',
+        bit: 'DTH Tungsten Button Bit',
+        depth: '400 – 900+ Feet',
+        obj: 'Maximum Water Discharge'
+      },
+      home: {
+        dia: '4¾" or 6½" Domestic',
+        bit: 'Vibration-Dampened Bit',
+        depth: '150 – 450 Feet',
+        obj: 'Silt-Free Drinking Water'
+      },
+      ind: {
+        dia: '8" to 12" Heavy Bore',
+        bit: 'Dual-Rotary Hard Rock Bit',
+        depth: '700 – 1,800+ Feet',
+        obj: 'High-Volume Continuous Yield'
+      }
+    };
+
+    function selectType(type) {
+      ['agri', 'home', 'ind'].forEach(t => {
+        const btn = document.getElementById('pill-' + t);
+        if (t === type) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+      document.getElementById('spec-dia').innerText = reqData[type].dia;
+      document.getElementById('spec-bit').innerText = reqData[type].bit;
+      document.getElementById('spec-depth').innerText = reqData[type].depth;
+      document.getElementById('spec-obj').innerText = reqData[type].obj;
+    }
+
+    // 2. Gallery Filter & Modal
+    function filterGallery(category, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.gallery-card').forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    function openModal(imgSrc, title, desc) {
+      document.getElementById('modalImg').src = imgSrc;
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('modalDesc').innerText = desc;
+      document.getElementById('galleryModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      document.getElementById('galleryModal').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    // 3. Calculator & Invoice Logic
+    const defaultTiers = [
+      { from: 0, to: 100, rate: 60 },
+      { from: 101, to: 200, rate: 80 },
+      { from: 201, to: 300, rate: 110 },
+      { from: 301, to: 400, rate: 150 },
+      { from: 401, to: 500, rate: 200 },
+      { from: 501, to: 600, rate: 250 },
+      { from: 601, to: 700, rate: 300 },
+      { from: 701, to: 800, rate: 350 },
+      { from: 801, to: 900, rate: 400 },
+      { from: 901, to: 1000, rate: 450 },
+      { from: 1001, to: 1100, rate: 500 },
+      { from: 1101, to: 1200, rate: 550 },
+      { from: 1201, to: 1300, rate: 600 },
+      { from: 1301, to: 1400, rate: 650 },
+      { from: 1401, to: 1500, rate: 700 },
+    ];
+
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('invDate').value = today;
+
+    function renderTierInputs() {
+      const tbody = document.getElementById('tierRatesBody');
+      tbody.innerHTML = '';
+      defaultTiers.forEach((tier, index) => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${tier.from} – ${tier.to} ft</td>
+          <td class="text-right">
+            <input type="number" id="tierRate_${index}" value="${tier.rate}" style="width:70px; height:28px; text-align:right; font-family:monospace;" oninput="renderInvoice()" />
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderInvoice() {
+      const totalDepth = parseInt(document.getElementById('totalDepthInput').value) || 0;
+      const casingFt = parseInt(document.getElementById('casingLength').value) || 0;
+      const casingRate = parseFloat(document.getElementById('casingRate').value) || 0;
+      const capCharge = parseFloat(document.getElementById('capCharge').value) || 0;
+      const weldingCharge = parseFloat(document.getElementById('weldingCharge').value) || 0;
+      const labourCharge = parseFloat(document.getElementById('labourCharge').value) || 0;
+      const transportCharge = parseFloat(document.getElementById('transportCharge').value) || 0;
+      const isFlushing = document.getElementById('includeFlushing').checked;
+      const flushingCharge = isFlushing ? 1500 : 0;
+
+      document.getElementById('invBrandPhones').innerText = document.getElementById('agencyPhones').value;
+      document.getElementById('invCustomerDisplay').innerText = document.getElementById('customerLocation').value || 'Customer';
+      document.getElementById('invDateDisplay').innerText = document.getElementById('invDate').value || today;
+      document.getElementById('invCasingDisplay').innerText = `${casingFt} Ft (7") @ ₹${casingRate}/Ft`;
+      document.getElementById('invDepthDisplay').innerText = `${totalDepth.toLocaleString('en-IN')} Feet`;
+
+      const tbody = document.getElementById('invoiceTableBody');
+      tbody.innerHTML = '';
+      let drillingSubtotal = 0;
+      let remainingDepth = totalDepth;
+      let rowNumber = 1;
+
+      for (let i = 0; i < defaultTiers.length; i++) {
+        if (remainingDepth <= 0) break;
+        const tierSpan = defaultTiers[i].to - defaultTiers[i].from + (i === 0 ? 0 : 1);
+        const interval = Math.min(remainingDepth, tierSpan);
+        const rateInput = document.getElementById(`tierRate_${i}`);
+        const rate = rateInput ? parseFloat(rateInput.value) : defaultTiers[i].rate;
+        const amount = interval * rate;
+        drillingSubtotal += amount;
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td class="text-center">${rowNumber}</td>
+          <td>${defaultTiers[i].from} – ${defaultTiers[i].from + interval} ft</td>
+          <td class="text-right">${interval}</td>
+          <td class="text-right">${rate.toFixed(2)}</td>
+          <td class="text-right font-mono">${amount.toLocaleString('en-IN', {minimumFractionDigits: 2})}</td>
+        `;
+        tbody.appendChild(tr);
+        remainingDepth -= interval;
+        rowNumber++;
+      }
+
+      if (remainingDepth > 0) {
+        const lastRate = 750;
+        const amount = remainingDepth * lastRate;
+        drillingSubtotal += amount;
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td class="text-center">${rowNumber}</td>
+          <td>1501 – ${totalDepth} ft</td>
+          <td class="text-right">${remainingDepth}</td>
+          <td class="text-right">${lastRate.toFixed(2)}</td>
+          <td class="text-right font-mono">${amount.toLocaleString('en-IN', {minimumFractionDigits: 2})}</td>
+        `;
+        tbody.appendChild(tr);
+      }
+
+      const casingTotal = casingFt * casingRate;
+      const grandTotal = drillingSubtotal + casingTotal + capCharge + weldingCharge + labourCharge + transportCharge + flushingCharge;
+
+      document.getElementById('invDrillingTotal').innerText = '₹' + drillingSubtotal.toLocaleString('en-IN', {minimumFractionDigits: 2});
+      document.getElementById('invCasingTotal').innerText = '₹' + casingTotal.toLocaleString('en-IN', {minimumFractionDigits: 2});
+      document.getElementById('invCapTotal').innerText = '₹' + capCharge.toLocaleString('en-IN', {minimumFractionDigits: 2});
+      document.getElementById('invWeldingTotal').innerText = '₹' + weldingCharge.toLocaleString('en-IN', {minimumFractionDigits: 2});
+      document.getElementById('invLabourTotal').innerText = '₹' + labourCharge.toLocaleString('en-IN', {minimumFractionDigits: 2});
+      document.getElementById('invTransportTotal').innerText = '₹' + transportCharge.toLocaleString('en-IN', {minimumFractionDigits: 2});
+
+      const flushingRow = document.getElementById('invFlushingRow');
+      if (isFlushing) {
+        flushingRow.style.display = 'flex';
+        document.getElementById('invFlushingTotal').innerText = '₹' + flushingCharge.toLocaleString('en-IN', {minimumFractionDigits: 2});
+      } else {
+        flushingRow.style.display = 'none';
+      }
+
+      document.getElementById('invGrandTotal').innerText = '₹' + grandTotal.toLocaleString('en-IN', {minimumFractionDigits: 2});
+    }
+
+    function sendInvoiceWhatsApp() {
+      const depth = document.getElementById('totalDepthInput').value;
+      const customer = document.getElementById('customerLocation').value;
+      const casing = document.getElementById('invCasingDisplay').innerText;
+      const drillingSum = document.getElementById('invDrillingTotal').innerText;
+      const labour = document.getElementById('invLabourTotal').innerText;
+      const transport = document.getElementById('invTransportTotal').innerText;
+      const grandTotal = document.getElementById('invGrandTotal').innerText;
+
+      const msg = `*SRI VARAHI BOREWELLS - OFFICIAL ESTIMATE*%0A` +
+        `-----------------------------------------%0A` +
+        `• *Client / Location:* ${customer}%0A` +
+        `• *Total Planned Depth:* ${depth} Feet%0A` +
+        `• *Casing Pipe:* ${casing}%0A` +
+        `• *Drilling Charges:* ${drillingSum}%0A` +
+        `• *Labour Charges:* ${labour}%0A` +
+        `• *Transport & Rig Fuel:* ${transport}%0A` +
+        `-----------------------------------------%0A` +
+        `• *TOTAL ESTIMATED COST:* ${grandTotal}%0A` +
+        `-----------------------------------------%0A` +
+        `*Sri Varahi Borewells - Hyderabad Trusted Borewell Experts*%0A` +
+        `24/7 Booking: 9985649952 / 9391669952%0A` +
+        `Instagram: @sri_varahi_borewells`;
+
+      window.open(`https://wa.me/919985649952?text=${msg}`, '_blank');
+    }
+
+    // Initialize
+    renderTierInputs();
+    renderInvoice();
+  </script>
+
+</body>
+</html>
